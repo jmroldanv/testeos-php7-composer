@@ -1,0 +1,12 @@
+{
+    "name": "dejrv1/testeos-php7-composer",
+    "authors": [
+        {
+            "name": "jmroldanv",
+            "email": "jmroldanv@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.*"
+    }
+}
