@@ -24,7 +24,7 @@ $ composer require monolog/monolog:1.*
 ## dependencias que se están usando en este proyecto.
 
 # creamos un script php para probar la nueva librería monolog: 
-$ copy con test1.php
+- $ copy con test1.php
 <?php
 require __DIR__.'/vendor/autoload.php';
 use Monolog\Logger;
@@ -37,9 +37,9 @@ $log->warning('Foo');
 $log->error('Bar');
 
 # arrancamos un servidor local (php lo trae de serie):
-$ php -S localhost:8000
+- $ php -S localhost:8000
 
-http://localhost:8000/test1.php
+- http://localhost:8000/test1.php
 
 # se crea el fichero "monolog.log" con los logs que hemos escrito.
 
