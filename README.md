@@ -16,12 +16,12 @@ $ composer self-update
 # la instalamos (se crea una nuevo subdirectorio: "vendor"):
 $ composer require monolog/monolog:1.*
 
-### Importante ! : 
-# se ha generado un fichero composer.lock que contendrá exactamente la versión descargada de cada una 
-# de las dependencias. 
-# Por ello cuando un nuevo miembro del equipo necesite participar en el proyecto se le pasarán los dos archivos
-# de composer:  composer.json y composer.lock para que use (se descargue) exactamente las mismas versiones de las 
-# dependencias que se están usando en este proyecto.
+## Importante ! : 
+### se ha generado un fichero composer.lock que contendrá exactamente la versión descargada de cada una 
+### de las dependencias. 
+### Por ello cuando un nuevo miembro del equipo necesite participar en el proyecto se le pasarán los dos archivos
+### de composer:  composer.json y composer.lock para que use (se descargue) exactamente las mismas versiones de las 
+## dependencias que se están usando en este proyecto.
 
 # creamos un script php para probar la nueva librería monolog: 
 $ copy con test1.php
