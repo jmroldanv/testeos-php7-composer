@@ -12,6 +12,7 @@ $ composer init
 # actualizamos composer
 $ composer self-update
 
+## test1
 # agregamos la dependencia "monolog" en "composer.json" y 
 # la instalamos (se crea una nuevo subdirectorio: "vendor"):
 $ composer require monolog/monolog:1.*
@@ -42,6 +43,10 @@ $log->error('Bar');
 - http://localhost:8000/test1.php
 
 # se crea el fichero "monolog.log" con los logs que hemos escrito.
+
+## test2: 
+### libreria pdf (https://github.com/mpdf/mpdf)
+- $ composer require mpdf/mpdf
 
 
 
